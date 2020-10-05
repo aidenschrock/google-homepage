@@ -9,7 +9,6 @@
 
 #right {
     display: inline-flexbox;
-    justify-content: space-between;
     text-align: right;
     padding-top: 10px;
     padding-right: 18px;
@@ -72,6 +71,10 @@ body {
     width: 35px;
     position: relative;
     vertical-align: middle;
+}
+
+#buttons>a {
+    text-decoration: none;
 }
 
 a {
@@ -171,7 +174,7 @@ input {
     background-color: #f8f8f8;
     border: #f8f8f8;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
